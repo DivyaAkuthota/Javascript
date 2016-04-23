@@ -9,13 +9,16 @@ window.onload = testfunc;
 
 function testfunc(){
     (function test() {
-        var slides = document.getElementsByClassName("mySlides");
-       // console.log(document.getElementsByClassName("mySlides"));
-        console.log(slides);
+       setTimeout(function(){
+           // var slides = document.getElementsByClassName("mySlides");
+           // // console.log(document.getElementsByClassName("mySlides"));
+           // console.log(slides.length);
+           showSlides(slideIndex);
+       },0);
         //slides[0].style.display = "block";
     }());
 
-    // showSlides(slideIndex);
+
 }
 
 
