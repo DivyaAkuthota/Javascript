@@ -1,0 +1,14 @@
+#myProgress {
+    position: relative;
+    width: 30%;
+    height: 10px;
+    background-color: grey;
+    border-radius: 5%;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: green;
+    border-radius: 5%;
+}
